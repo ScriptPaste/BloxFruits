@@ -10,7 +10,6 @@
 
 body {
     background: linear-gradient(#03012C,#190E4F;
-    color: #333;
     text-align: center;
     padding: 20px;
 }
@@ -91,9 +90,4 @@ th, td {
     padding: 10px;
     border: 1px solid #ccc;
     text-align: left;
-}
-
-th {
-    background-color: #8E8D8A;
-    color: white;
 }
