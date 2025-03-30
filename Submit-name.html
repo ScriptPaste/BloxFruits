@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Submit Your Name</title>
+    <link rel="stylesheet" href="styles.css">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <header>
+        <h1>Submit Your Name</h1>
+    </header>
+    <main>
+        <section class="form-section">
+            <form id="nameForm">
+                <label for="nameInput">Enter Your Name:</label>
+                <input type="text" id="nameInput" placeholder="Your Name" required>
+                <button type="submit">Submit</button>
+            </form>
+            <img src="https://i.giphy.com/media/l0MYt5jPR6QX5pnqM/giphy.gif" alt="Funny GIF" class="gif-message">
+        </section>
+        <section class="table-section">
+            <h2>Names Submitted So Far:</h2>
+            <table id="nameTable">
+                <thead>
+                    <tr>
+                        <th>#</th>
+                        <th>Name</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <!-- Names will be dynamically added here -->
+                </tbody>
+            </table>
+        </section>
+    </main>
+    <footer>
+        <p>&copy; 2023 | Designed with ❤️</p>
+    </footer>
+    <script src="script.js"></script>
+</body>
+</html>
